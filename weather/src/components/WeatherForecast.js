@@ -1,4 +1,5 @@
 import React from "react";
+
 const WeatherForecast = (props) => {
   return (
     <div className="weather">

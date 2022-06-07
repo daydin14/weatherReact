@@ -8,4 +8,15 @@ const WeatherForecast = (props) => {
     </div>
   );
 };
-export default WeatherForecast;
+
+const forecast = ({ img, conditions, time }) => {
+  return (
+    <div className="weather">
+      <img src={img} alt="" />
+      <p>{conditions}</p>
+      <p>{time}</p>
+    </div>
+  );
+};
+
+export default forecast;

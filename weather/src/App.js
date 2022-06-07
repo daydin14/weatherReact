@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>My WeatherIcons App</h1>
-      <section className="forecasts">{forecasts}</section>
+      <section className="weather">{forecasts}</section>
     </div>
   );
 }

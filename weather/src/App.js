@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Weather from "./weatherData";
+import WeatherForecast from "./components/WeatherForecast";
 
 export default function App() {
   const weather = Weather.map((ele, index) => {

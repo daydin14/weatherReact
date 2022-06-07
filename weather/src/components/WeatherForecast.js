@@ -1,11 +1,10 @@
 import React from "react";
-import weatherData from "../weatherData";
 const WeatherForecast = (props) => {
   return (
-    <div>
+    <div className="weather">
       <img src={props.img} />
-      conditions={props.conditions}
-      time={props.time}
+      <p>conditions: {props.conditions}</p>
+      <p>time: {props.time}</p>
     </div>
   );
 };
